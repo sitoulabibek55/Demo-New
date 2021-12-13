@@ -1,0 +1,14 @@
+This is the github command list. 
+
+git init 
+
+git clone [url]
+
+git commit 
+ 
+git add . OR git add filename
+
+git push
+
+git pull
+

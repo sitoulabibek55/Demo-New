@@ -1,0 +1,16 @@
+This is the github command list. 
+
+git init 
+
+git clone [url]
+
+git commit -m "reason for commit"
+ 
+git add . OR git add filename
+
+git push
+
+git pull
+
+git status
+
