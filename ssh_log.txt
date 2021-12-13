@@ -1,0 +1,47 @@
+ssh-keygen 
+:This will generate ssh key public and private. We will use .pub file. we can do cat /c/...../id_rsa.pub file so that we can copy it to github to add ssh in setting.
+
+ssh -T git@github.com
+:This will display the authentication message. It means your repo is linked with the local repo pr your computer.
+
+git push origin master
+: this will push all the files from local repo to git
+
+git pull origin master
+: this will pull all the data from git . upto date. It's a good practice to pull the latest data from git to local repo before pushing into it. This is very important.
+
+git remoter add origin "link to repository-clone with https URL"
+:this will add the central repo to local repo
+
+git status
+:to check the staus of the local repo
+
+git add filename
+:to add singile file
+
+git add . 
+:to add all the files
+
+git add -A
+:to add all the files 
+
+git commit -m "Your message"
+:to commit to git
+
+git commit -a -m "Your message"
+:commit and add at the same time but have to add once before
+
+git log
+: to view the log of the commit 
+
+git branch branch_name
+:this will create the branch
+
+git checkout branch_name
+:to change the branch
+
+git checkout master
+:to switch to branch
+
+git merge branch_name
+:this command will merge branch_name to current branch ---make sure you are in right branch. To merge in master branch, first checkout from branch and go to master branch and run the command.
